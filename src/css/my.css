@@ -1,0 +1,51 @@
+
+textarea {
+	width:60%;
+	min-height:100px;
+	margin-top:20px;
+
+}
+
+table {
+	width:100%;
+}
+
+td {
+	width:50%;
+}
+
+a {
+	 color: #222;
+	 text-decoration:none;
+}
+
+.white-1e1d7 {
+  background-color: #ececec;
+  color: #b58863;
+}
+
+.black-3c85d {
+  background-color: #95A5A6;
+  color: #f0d9b5;
+}
+
+#game {
+	width:50%;
+	position:relative;
+	float:left;
+	margin-top:30px;
+}
+
+#notation {
+	background-color:#F2F1EF;
+	height:65vh;
+	width:60%;
+	overflow:hidden;
+	overflow-y:auto;
+}
+#text {
+	width:40%;
+	float:right;
+	margin-top:30px;
+}
+
