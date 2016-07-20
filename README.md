@@ -11,3 +11,5 @@ Just run bower to install dependencies.
 ```sh
 $ bower install
 ```
+
+You can load games in pgn format in the textarea. 

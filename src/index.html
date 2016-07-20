@@ -17,47 +17,52 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div  id='game'>
-            <div id="board1" style="width:100%"></div>
+        <div class="container">
 
-            <div>
-                <span id="white"></span> 
-                <span id="whiteElo"></span> - 
-                <span id="black"></span> 
-                <span id="blackElo"></span> 
-                <br> 
-                <span id="event"></span>  
-                <span id="site"></span>  
-                <span id="round"></span>  
-                <span id="date"></span>
-            </div>
-        </div>
-
-
-        <div id='text'>
-            <div id='notation'>
-               <table style="text-align:center">
-               </table>
+            <div id="header">
+                <h1>PGN CHESS VIEWER</h1>
             </div>
 
-            <div id='control'>
-                <button onclick="start()">Start</button>    
-                <button onclick="prev()">Prev</button> 
-                <button onclick="next()">Next</button>
-                <button onclick="end()">End</button> 
+            <div id='game'>
+                <div id="board1" style="width:100%"></div>
+               
+                <div>
+                    <span id="white"></span> 
+                    <span id="whiteElo"></span> - 
+                    <span id="black"></span> 
+                    <span id="blackElo"></span> 
+                    <br> 
+                    <span id="event"></span>  
+                    <span id="site"></span>  
+                    <span id="round"></span>  
+                    <span id="date"></span>
+                </div>
             </div>
 
-            <textarea ></textarea>
-            <br>
-            <button onclick="save()">Save</button> 
-            <br>
-            <br>
+            <div id='text'>
+                <div id='notation'>
+                   <table style="text-align:center"></table>
+                </div>
+
+                <div id='control'>
+                    <button onclick="start()">Start</button>    
+                    <button onclick="prev()">Prev</button> 
+                    <button onclick="next()">Next</button>
+                    <button onclick="end()">End</button> 
+                </div>
+
+                <textarea ></textarea>
+                <br>
+                <button onclick="save()">Save</button> 
+                <br>
+                <br>
+            </div>
 
         </div>
 
         <script src="https://code.jquery.com/jquery-git2.min.js"></script>
+        <script src="bower_components/chessboard.js/js/chessboard.min.js"></script>
         <script src="bower_components/chess.js/chess.js"></script> 
-        <script src="bower_components/chessboard.js/js/chessboard.js"></script>
         <script src="js/main.js"></script>
 
     </body>
