@@ -2,11 +2,9 @@
   "name": "pgn-chess-viewer",
   "version": "0.0.1",
   "description": "chess viewer",
-  "main": "index.js",
   "authors": [
     "coding.neat"
   ],
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
